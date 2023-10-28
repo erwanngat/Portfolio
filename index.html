@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <nav>
+
+        <ul class="nav-links">
+            <li class="link"><a href="#">Accueil</a></li>
+            <li id="link1" class="link"><a href="#projets">Projets</a></li>
+            <li id="link2" class="link"><a href="CV.html">CV</a></li>
+        </ul>
+        <a href="#contact">
+            <button class="btn">Contact</button>
+        </a>
+    </nav>
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>PORTFOLIO</h4>
+            <H1>Bonjour, je suis <span>Erwann</span>, développeur junior</H1>
+            <p>
+                Je suis actullement en 2ème année de BTS SIO option SLAM à Business School à Limas.
+            </p>
+        </div>
+        <div class="image">
+            <img src="images/header.png">
+        </div>
+    </header>
+
+    <section class="container">
+        <section id="projets">
+            <h2 class="header">Projets</h2>
+        </section>
+        <div class="features">
+            <div class="card">
+                <span><i class="ri-money-dollar-box-line"></i></span>
+                <h4>Site de vente de chaussures</h4>
+                <p>
+                    J'ai effectuer un petit site de vente de chaussure avec Laravel
+                </p>
+                <a href="#">Plus d'informations<i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-bug-line"></i></span>
+                <h4>Projet 2</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#">Plus d'informations<i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-history-line"></i></span>
+                <h4>Projet 3</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#">Plus d'informations<i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-shake-hands-line"></i></span>
+                <h4>Projet 4</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a href="#">Plus d'informations<i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <section id="contact">
+            <h2 class="header">Contact</h2>
+        </section>
+        <p class="sub-header">
+            Veuillez me contacter via ce formulaire ou directement par mail à l'adresse suivante : erwann.gatinel@gmail.com.
+        </p>
+        <br><br>
+        <div class="formulaire">
+            <form action="index.html" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required><br><br>
+            
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" name="email" required><br><br>
+            
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </section>
+
+    <footer class="foot-container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+            <p>
+                Vous pouvez également me trouver sur ces différentes plateformes ci-dessous :
+            </p>
+            <div class="socials">
+                <a href="https://github.com/erwanngat"><i class="ri-github-line"></i></a>
+                <a href="mailto:erwann.gatinel@gmail.com"><i class="ri-mail-line"></i></a>
+                <a href="https://www.linkedin.com/in/erwann-gatinel-8b677824b/"><i class="ri-linkedin-line"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
