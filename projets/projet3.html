@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>Site roulette</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li class="link"><a href="../index.html#">Accueil</a></li>
+            <li id="link1" class="link"><a href="../index.html#projets">Projets</a></li>
+            <li id="link2" class="link"><a href="../CV.html">CV</a></li>
+        </ul>
+        <a href="../index.html#contact">
+            <button class="btn">Contact</button>
+        </a>
+    </nav>
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>Projet site web</h4>
+            <h1>Site internet du jeux de la roulette</h1>
+            <p>
+                Ce site est le jeux de la roulette effectuer en PHP sous un format MVC. Utilisation base de données SQL.
+            </p>
+        </div>
+        <div class="imageProjet3">
+            <img src="../images/siteRoulette.png" onclick="agrandirImage(this)" />
+
+            <div id="imageAgrandie" onclick="fermerImage()">
+                <span id="fermerImage" onclick="fermerImage()">&times;</span>
+                <img id="imageAgrandieSource" src="../images/siteRoulette.png" alt="Image agrandie" />
+            </div>
+            <script src="../script.js"></script>
+        </div>
+    </header>
+
+    <footer class="foot-container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+            <p>
+                Vous pouvez trouver le code source ci-dessous
+            </p>
+            <div class="socials">
+                <a href="https://github.com/erwanngat/roulette"><i class="ri-github-line"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
