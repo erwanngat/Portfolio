@@ -387,3 +387,7 @@ form {
     right: 10px;
     cursor: pointer;
 }
+
+.imageProjet:hover{
+    cursor: pointer;
+}
