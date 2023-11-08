@@ -276,8 +276,13 @@ footer .column > a:hover{
 }
 
 @media (width < 900px){
+    nav {
+        flex-direction: row;
+        text-align: center;
+    }
     .nav-links{
-        display: none;
+        flex-direction: row;
+        gap: 1rem;
     }
     header{
         grid-template-columns: repeat(1, 1fr);
