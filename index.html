@@ -10,17 +10,32 @@
 </head>
 
 <body>
-
     <nav>
+        <div class="mobile-menu-icon">
+            <div class="line">test</div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
         <ul class="nav-links">
             <li class="link"><a href="#">Accueil</a></li>
-            <li id="link1" class="link"><a href="#projets">Projets</a></li>
-            <li id="link2" class="link"><a href="CV.html">CV</a></li>
+            <li id="link1" class="link"><a href="CV.html">CV</a></li>
+            <li id="link2" class="link"><a href="#btsSio">BTS SIO</a></li>
+            <div class="dropdown">
+                <li id="link3" class="link dropdown-toggle"><a href="#parcourspro">Parcours de professionnalisation ↓</a></li>
+                <ul class="dropdown-menu">
+                    <li id="link4" class="link"><a href="#parcourspro">Parcours professionnel</a></li>
+                    <li id="link5" class="link"><a href="#projets">Projets</a></li>
+                    <li id="link6" class="link"><a href="#competences">Portefeuille de compétences</a></li>
+                </ul>
+            </div>
+            <li id="link7" class="link"><a href="#veille">Veille technologique</a></li>
+            <li id="link8" class="link"><a href="#patrimoine">Patrimoine informatique</a></li> 
         </ul>
         <a href="#contact">
             <button class="btn">Contact</button>
         </a>
     </nav>
+    
 
     <header class="container">
         <div class="content">
@@ -116,7 +131,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
