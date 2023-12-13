@@ -539,46 +539,37 @@ input[type="submit"]:hover {
   width: 33.33%;
 }
 
-/* Styles pour le fond gris */
 .bg-gray-900 {
-  background-color: #333; /* Remplace la couleur Tailwind bg-gray-900 */
-  padding-top: 8px; /* Équivalent de py-2 en Tailwind */
+  background-color: #333;
+  padding-top: 8px;
 }
 
-/* Styles pour l'espace entre les éléments */
-.space-x-64 {
-  /* Si nécessaire, ajustez la largeur ou l'espace entre les éléments */
-}
-
-/* Styles pour les titres */
 .text-4xl {
-  font-size: 2.25rem; /* Taille de police 4xl (text-4xl en Tailwind) */
+  font-size: 2.25rem; /
 }
 
-/* Styles pour les conteneurs des moitiés */
 .one-half {
-  width: 50%; /* Largeur de 1/2 */
+  width: 50%; 
 }
 
-/* Styles pour les listes et éléments listés */
 .text-3xl {
-  font-size: 1.875rem; /* Taille de police 3xl (text-3xl en Tailwind) */
-  padding-top: 2rem; /* Padding top de 4 en Tailwind */
+  font-size: 1.875rem; 
+  padding-top: 2rem; 
 }
 
 .font-bold {
-  font-weight: bold; /* Texte en gras */
+  font-weight: bold;
 }
 
 .text-lg {
-  font-size: 1.125rem; /* Taille de police lg (text-lg en Tailwind) */
-  padding-top: 1rem; /* Padding top de 2 en Tailwind */
+  font-size: 1.125rem;
+  padding-top: 1rem; 
 }
 
 .py-2 {
-  padding-top: 0.5rem; /* Padding top de 2 en Tailwind */
+  padding-top: 0.5rem;
 }
 
 .pl-8 {
-  padding-left: 2rem; /* Padding left de 8 en Tailwind */
+  padding-left: 2rem;
 }
