@@ -38,8 +38,8 @@ nav {
   position: fixed;
   top: 0;
   z-index: 1;
-  padding-left: 25%;
-  padding-right: 5%;
+  padding-left: 10rem;
+  padding-right: 5rem;
 }
 
 
@@ -491,6 +491,7 @@ input[type="submit"]:hover {
 }
 
 .flex-container {
+  margin-top: 5%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -499,12 +500,28 @@ input[type="submit"]:hover {
 }
 
 .one-third {
-  width: 33.33%;
+  width: 33%;
+  font-size: 130%;
+  margin-right: 10%;
+  text-align: justify;
+}
+
+.one-third-bis{
+  width: 33%;
+  font-size: 130%;
+  margin-left: 10%;
+  text-align: justify;
 }
 
 .one-fourth {
-  width: 25%;
+  width: 30%;
   margin-left: 48px;
+}
+
+.one-fourth-bis{
+  margin-top: 3%;
+  width: 40%;
+  margin-right: 48px;
 }
 
 .text-xl {
@@ -583,4 +600,25 @@ input[type="submit"]:hover {
 
 .top{
   padding-top: 8%;
+}
+
+.title-sio{
+  font-size: 170%;
+  padding-bottom: 5%;
+}
+
+.liste1{
+  margin-left: 10%;
+  padding-right: 5%;
+  font-size: 110%;
+}
+
+.liste2{
+  margin-right: 2%;
+  padding-left: 5%;
+  font-size: 110%;
+}
+
+.li-liste{
+  padding-bottom: 2%;
 }
