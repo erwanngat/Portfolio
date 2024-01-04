@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  color: white;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #18181b;
@@ -621,4 +625,9 @@ input[type="submit"]:hover {
 
 .li-liste{
   padding-bottom: 2%;
+}
+
+.ppro{
+  text-align: center;
+  font-size: 130%;
 }
