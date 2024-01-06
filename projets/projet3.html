@@ -1,59 +1,87 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
-    <link rel="stylesheet" href="../style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
     <title>Site roulette</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav>
         <ul class="nav-links">
-            <li class="link"><a href="../index.html#">Accueil</a></li>
-            <li id="link1" class="link"><a href="../index.html#projets">Projets</a></li>
-            <li id="link2" class="link"><a href="../CV.html">CV</a></li>
+          <li class="link">
+            <a href="/#"><strong>Accueil</strong></a>
+          </li>
+          <li id="link1" class="link"><a href="../CV.html" target="blank">CV</a></li>
+          <li id="link2" class="link"><a href="/#btsSio">BTS SIO</a></li>
+          <div class="dropdown">
+            <li id="link3" class="link dropdown-toggle">
+              <a href="/#parcours-pro">Parcours de professionnalisation ↓</a>
+            </li>
+            <ul class="dropdown-menu">
+              <p id="link4" class="link">
+                <a href="/#parcourspro">Parcours professionnel</a>
+              </p>
+              <p id="link5" class="link"><a href="/#projets">Projets</a></p>
+              <p id="link6" class="link">
+                <a href="/#competences">Portefeuille de compétences</a>
+              </p>
+            </ul>
+          </div>
+          <li id="link7" class="link">
+            <a href="/#veille">Veille technologique</a>
+          </li>
+          <li id="link8" class="link">
+            <a href="/#patrimoine">Patrimoine informatique</a>
+          </li>
         </ul>
-        <a href="../index.html#contact">
-            <button class="btn">Contact</button>
+        <a href="/#contact">
+          <button class="btn">Contact</button>
         </a>
-    </nav>
+      </nav>
 
     <header class="container">
-        <div class="content">
-            <span class="blur"></span>
-            <span class="blur"></span>
-            <h4>Projet site web</h4>
-            <h1>Site internet du jeux de la roulette</h1>
-            <p>
-                Ce site est le jeux de la roulette effectuer en PHP sous un format MVC. Utilisation base de données SQL.
-            </p>
-        </div>
-        <div class="imageProjet">
-            <img src="../images/siteRoulette.png" onclick="agrandirImage(this)" />
+      <div class="content">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <h4>Projet site web</h4>
+        <h1>Site internet du jeux de la roulette</h1>
+        <p>
+          Ce site est le jeux de la roulette effectuer en PHP sous un format
+          MVC. Utilisation base de données SQL.
+        </p>
+      </div>
+      <div class="imageProjet">
+        <img src="../images/siteRoulette.png" onclick="agrandirImage(this)" />
 
-            <div id="imageAgrandie" onclick="fermerImage()">
-                <span id="fermerImage" onclick="fermerImage()">&times;</span>
-                <img id="imageAgrandieSource" src="../images/siteRoulette.png" alt="Image agrandie" />
-            </div>
-            <script src="../script.js"></script>
+        <div id="imageAgrandie" onclick="fermerImage()">
+          <span id="fermerImage" onclick="fermerImage()">&times;</span>
+          <img
+            id="imageAgrandieSource"
+            src="../images/siteRoulette.png"
+            alt="Image agrandie"
+          />
         </div>
+        <script src="../script.js"></script>
+      </div>
     </header>
 
     <footer class="foot-container">
-        <span class="blur"></span>
-        <span class="blur"></span>
-        <div class="column">
-            <p>
-                Vous pouvez trouver le code source ci-dessous
-            </p>
-            <div class="socials">
-                <a href="https://github.com/erwanngat/roulette"><i class="ri-github-line"></i></a>
-            </div>
+      <span class="blur"></span>
+      <span class="blur"></span>
+      <div class="column">
+        <p>Vous pouvez trouver le code source ci-dessous</p>
+        <div class="socials">
+          <a href="https://github.com/erwanngat/roulette"
+            ><i class="ri-github-line"></i
+          ></a>
         </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
