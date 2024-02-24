@@ -2,19 +2,18 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="/images/ppBird.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="/images/ppBird.jpg"/>
     <title>Portfolio</title>
   </head>
 
   <body>
     <nav>
       <ul class="nav-links">
+        <img class='pp' src="images/ppBird.jpg"/>
+        <p>GATINEL Erwann</p>
         <li class="link">
           <a href="#"><strong>Accueil</strong></a>
         </li>
@@ -30,7 +29,7 @@
             </p>
             <p id="link5" class="link"><a href="#projets">Projets</a></p>
             <p id="link6" class="link">
-              <a href="#competences">Portefeuille de compétences</a>
+              <a href="competences.html" target="blank">Portefeuille de compétences</a>
             </p>
           </ul>
         </div>
@@ -40,10 +39,10 @@
         <li id="link8" class="link">
           <a href="#patrimoine">Patrimoine informatique</a>
         </li>
+        <a href="#contact">
+          <button class="btn">Contact</button>
+        </a>
       </ul>
-      <a href="#contact">
-        <button class="btn">Contact</button>
-      </a>
     </nav>
 
     <div class="top"></div>
@@ -57,7 +56,7 @@
         </h1>
         <p>
           J'ai 20 ans, j'habite à Villefranche-sur-Saône et je suis actullement
-          en 2ème année de BTS SIO option SLAM à Business School à Limas.
+          en 2ème année de BTS SIO (Services Informatiques aux Organisations ) option SLAM (Solutions Logicielles et Applications Métiers) à Business School à Limas.
         </p>
       </div>
       <div class="image">
@@ -157,8 +156,7 @@
         <h2 class="header">Parcours de professionnalisation</h2>
       </section>
       <p class="ppro">
-        Dans cette rubrique, vous découvrirez en détail mon parcours
-        professionnel, comprenant mes expériences passées, ainsi que mes
+        Dans cette rubrique, vous découvrirez mes deux stages réalisés au cours de ma formation, mes
         différents projets accomplis. Enfin, je vous présenterai mon
         portefeuille de compétences, mettant en lumière mes capacités, mes
         aptitudes et mes domaines d'expertise.
@@ -171,10 +169,46 @@
       <section>
         <h2 class="header">Parcours professionnel</h2>
       </section>
-      <p>
-        presentation des stages avec attestation de stage, missions, apports et
-        difficultés.
-      </p>
+      <div class='flex-container-pro'>
+        <div class="parcpro1">
+          <h3>Stage de première année : CKC-Net situé a Chaponost</h3><br/>
+          <ul><strong>Mission principales réalisées lors du stage :</strong></ul><br/>
+          <li>Integrations de contenu depuis un Back-Office</li><br/>
+          <li>Testing technique & rapport de bugs</li><br/>
+          <li>Optimisation des balises meta titre et description</li><br/>
+          <li>Correctif de bug mineur</li>
+        </div>
+        <div class="parcpro2">
+            <p>Rapport de stage 1ère année:</p>
+            <iframe src='images/Rapport_stage_2023.pdf' width="100%" height="300px"></iframe>
+        </div>
+      </div>
+      <div class='flex-container'>
+        <div class="parcpro1">
+          <p>Rapport de stage 2ème année:</p>
+          <iframe src='images/Rapport_stage_2024.pdf' width="100%" height="300px"></iframe>
+        </div>
+        <div class="parcpro2">
+          <h3>Stage de deuxième année : CKC-Net situé a Chaponost</h3><br/>
+          <ul><strong>Mission principales réalisées lors du stage :</strong></ul><br/>
+          <li>Integrations de block dans un Back-Office</li><br/>
+          <li>Integrations de contenu depuis un Back-Office</li><br/>
+          <li>Testing technique & rapport de bugs</li><br/>
+          <li>Développement PHP sur le framework Laravel</li><br/>
+          <li>Correctif de bug</li>
+        </div>
+      </div>
+      <br/><br/><br/>
+      <h3 style='text-align: center;'>Vous retrouverez ici mes attestation de fin de stage :</h3>
+      <div class='flex-container'>
+        <div class="parcpro1">
+          <p>iframe attestation fin de stage</p>
+          <!-- <iframe src='' width="100%" height="300px"></iframe> -->
+        </div>
+        <div class="parcpro2">
+          <p>iframe attestation fin de stage</p>
+          <!-- <iframe src='' width="100%" height="300px"></iframe> -->
+        </div>
     </section>
 
     <section class="container">
