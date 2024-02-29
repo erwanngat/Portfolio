@@ -46,18 +46,31 @@
     </nav>
 
     <div class="top"></div>
+    <a href="../index.html#projets">
+      <button class="btn" style="margin-left: 5%;">Retour</button>
+    </a>
     <header class="container">
       <div class="content">
         <h4>Projet site web</h4>
         <h1>Site internet de vente de chaussure</h1>
         <p>
-          Ce site est fait sur le framework Laravel, il contient un CRUD.
-          Utilisation base de données SQL.
+          Ce projet à été fait en PHP 8.2.0 sur le framework Laravel v10.34.2 et le framework Tailwind CSS v3.3.6
         </p>
+        <ul><h3>Il contient:</h3><br/>
+          <li>Un CRUD</li>
+          <li>Une APi pour un CRUD</li>
+          <li>Une gestion des utilisateurs avec middleware</li>
+          <li>Des composants livewire pour les fonctionnalités interactives</li>
+          <li>Une validation des données pour garantir une précision</li>
+          <li>Une gestion des migrations et des seeders</li>
+          <li>Une gestion du panier</li>
+          <li>Une gestion des tailles des chaussures</li>
+          <li>Une gestion des stocks</li>
+        </ul>
       </div>
       <div class="imageProjet">
         <img
-          src="../images/siteChaussureMenu.png"
+          src="../images/shoe.png" style="width: 120%;"
           onclick="agrandirImage(this)"
         />
 
@@ -65,7 +78,7 @@
           <span id="fermerImage" onclick="fermerImage()">&times;</span>
           <img
             id="imageAgrandieSource"
-            src="../images/siteChaussureMenu.png"
+            src="../images/shoe.png"
             alt="Image agrandie"
           />
         </div>
@@ -79,7 +92,7 @@
       <div class="column">
         <p>Vous pouvez trouver le code source ci-dessous</p>
         <div class="socials">
-          <a href="https://github.com/erwanngat/proj-chaussure" target="blank"
+          <a href="https://github.com/erwanngat/LaravelShoe" target="blank"
             ><i class="ri-github-line"></i
           ></a>
         </div>
