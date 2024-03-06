@@ -652,12 +652,47 @@ ul, li{
 }
 
 .parcpro1{
-  width: 600px;
+  width: 700px;
   margin: 0 auto;
+  font-size: 130%;
+  text-align: justify;
 }
 
 .parcpro2{
-  width: 600px;
+  width: 700px;
   margin: 0 auto;
   margin-left: 5%;
+  font-size: 130%;
+  text-align: justify;
+}
+
+.tabveille {
+  display: none;
+  padding: 20px;
+}
+
+.tabveille:target {
+  display: block;
+  background-color: #fafafa;
+}
+
+.mois {
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+.mois::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #1d4ed8;
+  transition: all 0.3s ease;
+}
+
+.mois:hover::after {
+  width: 100%;
+  background-color: #1d4ed8;
 }

@@ -33,9 +33,16 @@
             </p>
           </ul>
         </div>
-        <li id="link7" class="link">
-          <a href="#veille">Veille technologique</a>
-        </li>
+        <div class="dropdown">
+          <li id="link7" class="link ropdown-toggle">
+            <a href="#veille">Veille technologique ↓</a>
+          </li>
+          <ul class="dropdown-menu">
+            <p id="link4" class="link">
+              <a href="#sujetVeille">Mon sujet</a>
+            </p>
+          </ul>
+        </div>
         <li id="link8" class="link">
           <a href="#patrimoine">Patrimoine informatique</a>
         </li>
@@ -54,7 +61,7 @@
         <h1>
           Bonjour, je suis <span>Erwann GATINEL</span>, développeur junior
         </h1>
-        <p>
+        <p style="text-align: justify;">
           J'ai 20 ans, j'habite à Villefranche-sur-Saône et je suis actullement
           en 2ème année de BTS SIO (Services Informatiques aux Organisations ) option SLAM (Solutions Logicielles et Applications Métiers) à Business School à Limas.
         </p>
@@ -87,7 +94,7 @@
 
     <div class="flex-container">
       <div class="one-fourth-bis">
-        <img src="images/logoSlam.png" />
+        <img style="width: 80%; margin: auto;" src="images/optslam.png" />
       </div>
       <div class="one-third-bis">
         <p>
@@ -163,7 +170,7 @@
       </p>
     </section>
 
-    <section class="container">
+    <section>
       <div id="parcourspro"></div>
       <br /><br /><br /><br /><br /><br/>
       <section>
@@ -180,13 +187,13 @@
         </div>
         <div class="parcpro2">
             <p>Rapport de stage 1ère année:</p>
-            <iframe src='images/Rapport_stage_2023.pdf' width="100%" height="300px"></iframe>
+            <iframe src='images/Rapport_stage_2023.pdf' width="100%" height="400px"></iframe>
         </div>
       </div>
       <div class='flex-container'>
         <div class="parcpro1">
           <p>Rapport de stage 2ème année:</p>
-          <iframe src='images/Rapport_stage_2024.pdf' width="100%" height="300px"></iframe>
+          <iframe src='images/Rapport_stage_2024.pdf' width="100%" height="400px"></iframe>
         </div>
         <div class="parcpro2">
           <h3>Stage de deuxième année : CKC-Net situé a Chaponost</h3><br/>
@@ -251,7 +258,7 @@
       </div>
     </section>
 
-    <section class="container">
+    <section>
       <div id="veille"></div>
       <br /><br /><br /><br /><br /><br/>
       <section>
@@ -293,13 +300,62 @@
         </div>
       </div>
       <h3 style="padding: 5%; text-align: center;">Les différents outils de la veille :</h3>
-      <img src="images/veille3.png"/>
+      <img style="width: 50%; margin: auto" src="images/veille3.png"/>
       <h3 style="padding: 5%; text-align: center;">Organisations de la veille technologique :</h3>
-      <img src="images/veille4.png"/>
-      <h3>!!!!!!!!mettre ici sujet de veille !!!!!!!!!</h3>
+      <img style="width: 50%; margin: auto" src="images/veille4.png"/>
     </section>
 
-    <section class="container">
+    <section>
+      <div id="sujetVeille"></div>
+      <br /><br /><br /><br /><br /><br/>
+      <section>
+        <h2 class="header">Mon sujet de veille technologique</h2>
+      </section><br/>
+      <h3 style="text-align: center; font-size: 150%;">Les IDE ou EDI</h3>
+      <div class='flex-container-pro'>
+        <div class="parcpro1">
+          <h4>Définition:</h4><br/>
+          <p>Un IDE (Integrated Developement Environnement) ou EDI (Environnement de Développement Intégré) est un logiciel qui offre aux développeurs un ensemble d'outils pour créer, éditer et compiler du code informatique. Il s'agit d'une plateforme unique qui centralise les différentes tâches du développement, ce qui permet d'améliorer la productivité et l'efficacité des programmeurs.</p>
+          <br/><ul>Il en existe une multitude, les plus connus sont :</ul>
+          <li style="margin: 1%;">IntelliJ IDEA</li>
+          <li style="margin: 1%;">Visual Studio</li>
+          <li style="margin: 1%;">Eclipse</li>
+        </div>
+        <div class="parcpro2">
+          <img src="images/idepic.png"/>
+        </div>
+      </div>
+      <div class='flex-container-pro'>
+        <div class="parcpro1">
+          <img src="images/ide2.jpg"/>
+        </div>
+        <div class="parcpro2">
+          <h4>Pourquoi ce sujet de veille :</h4><br/>
+          <p>En tant que développeur, je suis amené à utiliser des IDE pour mes projets informatiques. Il est donc important pour moi de rester à la pointe des dernières technologies et fonctionnalités disponibles dans ce domaine. En effectuant une veille sur les IDE, j'enrichis ma panoplie d'outils et découvre de nouvelles fonctionnalités qui boostent ma productivité. Cette démarche nourrit également mon expertise en me familiarisant avec des techniques innovantes. De plus, elle me guide dans le choix de l'IDE le plus adapté à mes besoins et me prépare à relever les défis du marché du travail, me rendant ainsi plus compétitif.</p>
+        </div>
+      </div>
+      <h3 style="text-align: center; font-size: 150%; margin-top: 5%;">Les évènements majeurs de me veille</h3>
+        <ul style="display: flex; list-style-type: none; width: 100%; margin-top: 2%; font-size: 120%;">
+          <li class="mois" style="margin: auto; cursor: pointer;" data-mois="octobre22">Octobre 2022</li>
+          <li class="mois" style="margin: auto; cursor: pointer;" data-mois="decembre22">Décembre 2022</a></li>
+          <li class="mois" style="margin: auto; cursor: pointer;" data-mois="mars23">Mars 2023</li>
+          <li class="mois" style="margin: auto; cursor: pointer;" data-mois="juin23">juin 2023</li>
+          <li class="mois" style="margin: auto; cursor: pointer;" data-mois="septembre23">Septembre 2023</li>
+          <li class="mois" style="margin: auto; cursor: pointer;" data-mois="novembre23">Novembre 2023</li>
+          <li class="mois" style="margin: auto; cursor: pointer;" data-mois="janvier24">Janvier 2024</li>
+          <li class="mois" style="margin: auto; cursor: pointer;" data-mois="mars24">Mars 2024</li>
+        </ul>
+        <br/><br/><br/>
+        <tabveille id="title"></tabveille>  
+        <div class='flex-container'>
+          <div class="parcpro1">
+            <tabveille id="contenu1"></tabveille>  
+          </div>
+          <div class="parcpro2">
+            <tabveille id="contenu2"></tabveille>  
+          </div>
+        </div>
+    <section>
       <div id="patrimoine"></div>
       <br /><br /><br /><br /><br /><br/>
       <section>
@@ -354,21 +410,21 @@
           <img style="width: 80%; margin-top: 8%;" src="images/patrimoine3.png" />
         </div>
       </div>
-      <h3 style="padding: 5%; text-align: center;">Quels outils ?<h3>
+      <h3 style="padding: 5%; text-align: center; font-size: 200%;">Quels outils ?<h3>
         <div class='flex-container-pro'>
           <div class="parcpro1">
             <p>Outils licence libre</p><br/>
-            <img src="images/glpi.png" /><br/>
+            <img style="width: 50%;" src="images/glpi.png" /><br/>
             <p>(Gestion Libre de Parc Informatique)</p><br/>
             <p style="font-size: 16px;">GLPI est une solution libre, diffusée sous licence GNU GPL, de gestion de parc informatique et de ServiceDesk. </p><br/><br/>
-            <img src="images/ocs-white.png" /><br/>
+            <img style="width: 50%;" src="images/ocs-white.png" /><br/>
             <p>(Open Computer and Software) </p><br/>
             <p style="font-size: 16px;">OCS Inventory est une application permettant de réaliser un inventaire sur la configuration des machines du réseau et sur les logiciels qui y sont installés. OCS permet de visualiser cet inventaire grâce à une interface Web.</p>
 
           </div>
           <div class="parcpro2">
             <p>Outil licence propriétaire</p><br/>
-            <img style="width: 80%; margin-top: 8%;" src="images/prtg.png" /><br/>
+            <img style="width: 50%;" src="images/prtg.png" /><br/>
             <p>(Paessler Router Traffic Grapher)</p><br/>
             <p style="font-size: 16px;">PRTG est un logiciel de gestion réseau qui permet d' observer de près la bande passante, la disponibilité, les performances et les périphériques du réseau. </p>
           </div>
