@@ -48,12 +48,12 @@ elements.forEach((element) => {
         case "decembre22":
             title.innerHTML = `<h3 style="text-align: center; font-size:200%;">Nouveautés Décembre 2022</h3>`;
             contenu1.innerHTML = `<h4 style='font-size: 120%;'>Annonce de la nouvelle version de Visual Studio Code:</h4><br/><ul>Cette nouvelle version inclut de nombreuses fonctionnalités et améliorations, notamment :</ul><li>Meilleure prise en charge du langage de programmation Python</li><li>Nouvelles fonctionnalités pour le développement web</li><li>Amélioration de l'interface utilisateur</li>`;
-            contenu2.innerHTML = `<h4 style='font-size: 120%;'>Nouveautés Décembre 2022</h4><br/>`;
+            contenu2.innerHTML = `<h4 style='font-size: 120%;'>Lancement de la version 1.0 de Fleet:</h4><br/><p>Fleet est un nouvel IDE open source développé par JetBrains. Fleet est conçu pour être léger et extensible, et il est disponible sur plusieurs plateformes, notamment Windows, macOS et Linux.</p>`;
             break;
         case "mars23":
             title.innerHTML = `<h3 style="text-align: center; font-size:200%;">Nouveautés Mars 2023</h3>`;
-            contenu1.innerHTML = `<h4 style='font-size: 120%;'>Nouveautés Mars 2023</h4><br/>`;
-            contenu2.innerHTML = `<h4 style='font-size: 120%;'>Nouveautés Mars 2023</h4><br/>`;
+            contenu1.innerHTML = `<h4 style='font-size: 120%;'>Lancement de la version 2023.1 d'IntelliJ IDEA:</h4><br/><ul>Cette nouvelle version inclut de nombreuses fonctionnalités et améliorations, notamment :</ul><li>Meilleure prise en charge du langage de programmation Java 20:</li><li>Amélioration de l'intégration avec les outils Git:</li><li>Nouvelles fonctionnalités d'IA pour la complétion de code et la refactorisation:</li>`;
+            contenu2.innerHTML = `<h4 style='font-size: 120%;'>Lancement de la version 1.1 de Fleet:</h4><br/><p>Fleet est un nouvel IDE open source développé par JetBrains. Cette nouvelle version inclut des améliorations de performance, une meilleure prise en charge des plugins et de nouveaux langages de programmation pris en charge, tels que Go et Rust.</p>`;
             break;
         case "juin23":
             title.innerHTML = `<h3 style="text-align: center; font-size:200%;">Nouveautés Juin 2023</h3>`;
