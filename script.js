@@ -72,13 +72,13 @@ elements.forEach((element) => {
             break;
         case "janvier24":
             title.innerHTML = `<h3 style="text-align: center; font-size:200%;">Nouveautés Janvier 2024</h3>`;
-            contenu1.innerHTML = `<h4 style='font-size: 120%;'>Nouveautés Mars 2023</h4><br/>`;
+            contenu1.innerHTML = `<h4 style='font-size: 120%;'>L'IDE ZED devient open source</h4><br/><p>Zed un nouvel IDE ultra performant deviens open source. Cette décision permettra à tous les développeurs d'accéder et de modifier librement le code, ce qui contribuera à la création d'un outil encore plus performant et adapté aux besoins de la communauté.</p>`;
             contenu2.innerHTML = `<h4 style='font-size: 120%;'>Nouveautés Janvier 2024</h4><br/>`;
             break;
         case "fevrier24":
-            title.innerHTML = `<h3 style="text-align: center; font-size:200%;">Nouveautés Mars 2024</h3>`;
-            contenu1.innerHTML = `<h4 style='font-size: 120%;'>Nouveautés Mars 2023</h4><br/>`;
-            contenu2.innerHTML = `<h4 style='font-size: 120%;'>Nouveautés Mars 2024</h4><br/>`;
+            title.innerHTML = `<h3 style="text-align: center; font-size:200%;">Nouveautés février 2024</h3>`;
+            contenu1.innerHTML = `<h4 style='font-size: 120%;'>Nouvelle version VS Code 1.87</h4><br/><p>La mise à jour de février 2024 de Visual Studio Code apporte des fonctionnalités inédites. En voici quelques-unes : dictez du code directement dans l'éditeur, gérez les suggestions contextuelles pour plusieurs curseurs, obtenez des suggestions de renommage grâce à Copilot, prévisualisez les refactorisations sur plusieurs fichiers, profitez d'améliorations pour les suggestions d'importation Python et bénéficiez de la prise en charge de la dictée vocale multilingue.</p>`;
+            contenu2.innerHTML = `<h4 style='font-size: 120%;'>Nouvelle version NetBeans IDE 21 est disponible :</h4><br/><p>Apache NetBeans 21 est sorti et se concentre sur l'amélioration de la prise en charge de Gradle et Maven, du développement Java et du protocole LSP (Language Server Protocol).</p>`;
             break;
     }
   });
