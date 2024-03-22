@@ -73,7 +73,7 @@ elements.forEach((element) => {
         case "janvier24":
             title.innerHTML = `<h3 style="text-align: center; font-size:200%;">Nouveautés Janvier 2024</h3>`;
             contenu1.innerHTML = `<h4 style='font-size: 120%;'>L'IDE ZED devient open source</h4><br/><p>Zed un nouvel IDE ultra performant deviens open source. Cette décision permettra à tous les développeurs d'accéder et de modifier librement le code, ce qui contribuera à la création d'un outil encore plus performant et adapté aux besoins de la communauté.</p>`;
-            contenu2.innerHTML = `<h4 style='font-size: 120%;'>Nouveautés Janvier 2024</h4><br/>`;
+            contenu2.innerHTML = `<h4 style='font-size: 120%;'>JetBrains introduit une nouvelle fonctionnalité appelée Assistant IA</h4><br/><>Cette fonctionnalité utilise l'intelligence artificielle pour aider les développeurs à coder plus efficacement. L'Assistant IA peut expliquer du code, répondre à des questions sur le code, proposer des suggestions de code, et bien plus encore. Il est disponible dans les dernières versions des IDE JetBrains et fonctionne avec de nombreux langages pris en charge par ces produits. JetBrains est convaincu que l'Assistant IA sera un outil précieux pour les développeurs et les aidera à être plus productifs.</p>`;
             break;
         case "fevrier24":
             title.innerHTML = `<h3 style="text-align: center; font-size:200%;">Nouveautés février 2024</h3>`;
