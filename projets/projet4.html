@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"/>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" href="/images/ppBird.jpg"/>
+    <title>Site de gestion de projets</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul class="nav-links">
+        <img class='pp' src="../images/ppBird.jpg"/>
+        <p>GATINEL Erwann</p>
+        <li class="link">
+          <a href="/index.html"><strong>Accueil</strong></a>
+        </li>
+        <li id="link1" class="link"><a href="../CV.html" target="blank">CV</a></li>
+        <li id="link2" class="link"><a href="../index.html#btsSio">BTS SIO</a></li>
+        <div class="dropdown">
+          <li id="link3" class="link dropdown-toggle">
+            <a href="../index.html#parcours-pro">Parcours de professionnalisation ↓</a>
+          </li>
+          <ul class="dropdown-menu">
+            <p id="link4" class="link">
+              <a href="../index.html#parcourspro">Parcours professionnel</a>
+            </p>
+            <p id="link5" class="link"><a href="../index.html#projets">Projets</a></p>
+            <p id="link6" class="link">
+              <a href="../index.html#competences">Portefeuille de compétences</a>
+            </p>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <li id="link7" class="link ropdown-toggle">
+            <a href="#veille">Veille technologique ↓</a>
+          </li>
+          <ul class="dropdown-menu">
+            <p id="link4" class="link">
+              <a href="../index.html#sujetVeille">Mon sujet</a>
+            </p>
+          </ul>
+        </div>
+        <li id="link8" class="link">
+          <a href="../index.html#patrimoine">Patrimoine informatique</a>
+        </li>
+        <a href="#index.htmlcontact">
+          <button class="btn">Contact</button>
+        </a>
+      </ul>
+    </nav>
+
+    <div class="top"></div>
+    <a href="../index.html#projets">
+      <button class="btn" style="margin-left: 5%;">Retour</button>
+    </a>
+    <header class="container">
+      <div class="content">
+        <h4>Projet site web</h4>
+        <h1>Site de gestion de projets</h1>
+        <p>
+          Ce projet à été fait en Python 3.12.2 sur le framework Django v5.0.3 et le framework Bootstrap v5.2.0
+        </p>
+        <ul><h3>Il contient:</h3><br/>
+          <li>Des CRUD</li>
+          <li>Une gestion des utilisateurs avec middleware</li>
+          <li>Une validation des données pour garantir une précision</li>
+          <li>Une gestion des migrations et des seeders</li>
+          <li>Un admin</li>
+        </ul>
+      </div>
+      <div class="imageProjet">
+        <img
+          src="../images/shoe.png" style="width: 120%;"
+          onclick="agrandirImage(this)"
+        />
+
+        <div id="imageAgrandie" onclick="fermerImage()">
+          <span id="fermerImage" onclick="fermerImage()">&times;</span>
+          <img
+            id="imageAgrandieSource"
+            src="../images/shoe.png"
+            alt="Image agrandie"
+          />
+        </div>
+        <script src="../script.js"></script>
+      </div>
+    </header>
+
+    <footer class="foot-container">
+      <span class="blur"></span>
+      <span class="blur"></span>
+      <div class="column">
+        <p>Vous pouvez trouver le code source ci-dessous</p>
+        <div class="socials">
+          <a href="https://github.com/erwanngat/djangowin" target="blank"
+            ><i class="ri-github-line"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
